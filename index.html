@@ -3,15 +3,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Document</title>
 </head>
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     
+        <div class="flexslider">
+            <ul class="slides">
+            <li>
+                <img src="images/slide1.jpeg" />
+            </li>
+            <li>
+                <img src="images/slide2.jpg" />
+            </li>
+            <li>
+                <img src="images/slide3.jpg" />
+            </li>
+            </ul>
+        </div>
+
+
+        <div>
+            <div>
+                <img class="" src="images/redpanda1.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora sunt doloribus itaque veniam sequi laborum delectus explicabo id rerum quos saepe porro quasi, ad voluptatibus perferendis deserunt ab eos?</p>
+            </div>
+
+            <div>
+                <img class="" src="images/redpanda2.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora sunt doloribus itaque veniam sequi laborum delectus explicabo id rerum quos saepe porro quasi, ad voluptatibus perferendis deserunt ab eos?</p>
+            </div>
+
+            <div>
+                <img class="" src="images/redpanda3.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempora sunt doloribus itaque veniam sequi laborum delectus explicabo id rerum quos saepe porro quasi, ad voluptatibus perferendis deserunt ab eos?</p>
+            </div>
+            
+        </div>
+            
+
     <!-- JQUERY - POPPER - BOOTSTRAP - APP.JS -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/app.js"></script>
     
