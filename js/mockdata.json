@@ -1,4 +1,4 @@
-[
+mockdata = [
     {"img":"https://images.pexels.com/photos/146077/pexels-photo-146077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
     {"img":"https://images.pexels.com/photos/2265247/pexels-photo-2265247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},
     {"img":"https://images.pexels.com/photos/1040392/pexels-photo-1040392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"},

@@ -1,15 +1,16 @@
-$(window).load(function() {
-    $('.flexslider').flexslider();
-  });
+$(document).ready(function(){
 
-
-var myImgs = JSON.parse(JSON.stringify(img))
+var mydata = JSON.parse(JSON.stringify(mockdata))
 
 function imgSlider(){
   var i;
-  for (i=0; i < myImgs.length; i ++) {
+  for (i=0; i < mydata.length; i ++) {
     $('.slides').append( 
-      ' <li><img src="' + myImgs[i].img + '/> </li>'
+      ' <li><img src="' + mydata[i].img + '/> </li>'
     )
   }
 }
+
+imgSlider();
+
+});
